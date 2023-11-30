@@ -1,5 +1,5 @@
 module.exports = {
-  extends: [
+  "extends": [
     "./rules/best-practices",
     "./rules/errors",
     "./rules/node",
@@ -8,8 +8,8 @@ module.exports = {
     "./rules/es6",
     "./rules/imports",
   ].map(require.resolve),
-  parserOptions: {
-    ecmaVersion: "latest",
+  "parserOptions": {
+    "ecmaVersion": "latest",
   },
-  rules: {},
+  "rules": {},
 };
