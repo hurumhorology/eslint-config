@@ -67,7 +67,6 @@ module.exports = {
     "import/order": [
       "error",
       {
-        warnOnUnassignedImports: true,
         groups: [
           "builtin",
           "external",
